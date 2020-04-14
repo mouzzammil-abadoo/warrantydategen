@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="warrantyuptodate">
+
+<head>
+    <title>
+        Warranty Date Gen
+    </title>
+    <link rel="manifest" href="/warrantyuptodate//manifest.json">
+    <link rel="stylesheet" type="text/css" href="assets/css/vendor.css?v=0.0.1">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css?v=0.0.1">
+    <link rel="icon" type="png" href="assets/images/warrantyuptodate/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="white" />
+</head>
+
+<body>
+    <div ui-view></div>
+    <script src="js/vendor.js?v=0.0.1"></script>
+    <script src="js/all.js?v=0.0.1"></script>
+    <script src="js/templates.js?v=0.0.1"></script>
+    <script>
+        window.onload = function () {
+            'use strict';
+
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker
+                    .register('./sw.js');
+            }
+        }
+    </script>
+</body>
+
+</html>

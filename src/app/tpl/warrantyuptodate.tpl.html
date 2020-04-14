@@ -1,0 +1,15 @@
+<div layout="row" layout-align="center center">
+    <div layout="column" layout-align="center center">
+        <h3>Warranty date gen</h3>
+        <md-input-container>
+            <label>Start Date</label>
+            <md-datepicker ng-model="vm.selectedDate" md-placeholder="Enter date"></md-datepicker>
+        </md-input-container>
+        <md-input-container>
+            <label>Number of months</label>
+            <input type="number" ng-model="vm.durationPeriod" ng-change="vm.change()">
+        </md-input-container>
+
+        End Date :- {{vm.periodEnd}}
+    </div>
+</div>
