@@ -4,7 +4,7 @@
   "theme_color": "#12A7B5",
   "background_color": "#12A7B5",
   "display": "standalone",
-  "start_url": "/warrantyuptodate/index.html",
+  "start_url": "/warrantydategen/index.html",
   "icons": [
     {
       "src": "../assets/images/warrantyuptodate/icon-72x72.png",

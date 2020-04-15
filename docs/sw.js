@@ -1,12 +1,12 @@
 var cacheName = 'warrantyuptodate-pwa';
 var filesToCache = [
-    '/warrantyuptodate/',
-    '/warrantyuptodate/index.html',
-    '/warrantyuptodate/assets/css/vendor.css',
-    '/warrantyuptodate/assets/css/style.css',
-    '/warrantyuptodate/js/vendor.js',
-    '/warrantyuptodate/js/all.js',
-    '/warrantyuptodate/js/templates.js'
+    '/warrantydategen/',
+    '/warrantydategen/index.html',
+    '/warrantydategen/assets/css/vendor.css',
+    '/warrantydategen/assets/css/style.css',
+    '/warrantydategen/js/vendor.js',
+    '/warrantydategen/js/all.js',
+    '/warrantydategen/js/templates.js'
 ];
 
 /* Start the service worker and cache all of the app's content */
